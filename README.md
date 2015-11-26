@@ -2,6 +2,10 @@
 
 Simple front-end terminal simulator with animation.
 
+Screenshot:
+
+![1]
+
 Here is a live demo:
 
 https://micooz.github.io/terminal.js
@@ -39,6 +43,10 @@ Finally, coding as this example:
       o.output('-- Micooz');
     });
 
+# Installation
+
+    $ npm i
+
 # Build
 
     $ npm run build
@@ -54,3 +62,5 @@ Compile `src/*.*` into `dist/terminal.js` and generate source maps for better de
 # License
 
 MIT
+
+[1]: screenshot.png
