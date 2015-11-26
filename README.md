@@ -12,7 +12,7 @@ First, provide a div in your html code:
 
     <div id="terminal"></div>
 
-Second, include `terminal[.min].js` via <script>:
+Second, include `terminal[.min].js`:
 
     <script src="dist/terminal.min.js"></script>
 
