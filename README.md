@@ -2,13 +2,13 @@
 
 Simple front-end terminal simulator with animation.
 
-Screenshot:
-
-![1]
-
 Here is a live demo:
 
 https://micooz.github.io/terminal.js
+
+Screenshot:
+
+![1]
 
 # Usage
 
