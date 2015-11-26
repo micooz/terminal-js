@@ -22,15 +22,15 @@ Second, include `terminal[.min].js`:
 
 Finally, coding as this example:
 
-    // Create an instance of Terminal class.
-    // You can specify options in an object and pass it to the constructor.
+1). Create an instance of Terminal class. You can specify options in an object and pass it to the constructor:
+
     var t = new Terminal({
       dom: document.getElementById('terminal'), // required
       speed: 15 // chars per second
     });
 
-    // run() will give you an object of 'Operator' in your callback.
-    // The 'Operator' supports chain operation or function calls respectively.
+2). run() will give you an object of 'Operator' in your callback. The 'Operator' supports chain operation or function calls respectively:
+
     t.run(function (o) {
       o.output('Hi, there. I\'m Micoz. ').wait(300);
       o.del(3).output('oz. ').wait(1000);
