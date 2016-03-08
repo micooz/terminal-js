@@ -4,7 +4,7 @@ Simple front-end terminal simulator with animation.
 
 Here is a live demo:
 
-https://micooz.github.io/terminal.js
+https://micooz.github.io/terminal-js
 
 Screenshot:
 
@@ -46,6 +46,10 @@ Finally, coding as this example:
 # Installation
 
     $ npm i
+
+### via npm
+
+	$ npm i terminal-js --save
 
 # Build
 
