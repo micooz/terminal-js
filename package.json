@@ -40,6 +40,6 @@
     "webpack-stream": "^2.2.0"
   },
   "dependencies": {
-    "underscore": "^1.8.3"
+    "lodash": "^4.6.1"
   }
 }

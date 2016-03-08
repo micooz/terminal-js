@@ -1,4 +1,4 @@
-import _ from 'underscore';
+import _ from 'lodash';
 import View from './view';
 import Operator from './operator';
 import '../css/core.css'

@@ -1,4 +1,4 @@
-import _ from 'underscore';
+import _ from 'lodash';
 import Operation from './operation';
 
 export default class Newline extends Operation {
