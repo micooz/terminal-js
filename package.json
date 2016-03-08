@@ -1,6 +1,6 @@
 {
   "name": "terminal.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple front-end terminal printing simulator of nostalgic style with animation.",
   "main": "index.js",
   "scripts": {
