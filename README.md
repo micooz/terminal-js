@@ -4,7 +4,11 @@ Simple front-end terminal simulator with animation.
 
 Here is a live demo:
 
-https://micooz.github.io/terminal.js
+https://micooz.github.io/terminal-js
+
+Screenshot:
+
+![1]
 
 # Usage
 
@@ -12,21 +16,21 @@ First, provide a div in your html code:
 
     <div id="terminal"></div>
 
-Second, include `terminal[.min].js` via <script>:
+Second, include `terminal[.min].js`:
 
     <script src="dist/terminal.min.js"></script>
 
 Finally, coding as this example:
 
-    // Create an instance of Terminal class.
-    // You can specify options in an object and pass it to the constructor.
+1). Create an instance of Terminal class. You can specify options in an object and pass it to the constructor:
+
     var t = new Terminal({
       dom: document.getElementById('terminal'), // required
       speed: 15 // chars per second
     });
 
-    // run() will give you an object of 'Operator' in your callback.
-    // The 'Operator' supports chain operation or function calls respectively.
+2). run() will give you an object of 'Operator' in your callback. The 'Operator' supports chain operation or function calls respectively:
+
     t.run(function (o) {
       o.output('Hi, there. I\'m Micoz. ').wait(300);
       o.del(3).output('oz. ').wait(1000);
@@ -38,6 +42,14 @@ Finally, coding as this example:
       o.newline();
       o.output('-- Micooz');
     });
+
+# Installation
+
+    $ npm i
+
+### via npm
+
+	$ npm i terminal-js --save
 
 # Build
 
@@ -54,3 +66,5 @@ Compile `src/*.*` into `dist/terminal.js` and generate source maps for better de
 # License
 
 MIT
+
+[1]: screenshot.png
