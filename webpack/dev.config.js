@@ -1,4 +1,6 @@
 var path = require('path');
+var autoprefixer = require('autoprefixer');
+var precss = require('precss');
 
 module.exports = {
   watch: true,
@@ -11,7 +13,10 @@ module.exports = {
     loaders: [{
       test: /\.js$/, exclude: /node_modules/, loader: 'babel?presets[]=es2015'
     }, {
-      test: /\.css$/, loader: 'style!css!autoprefixer'
+      test: /\.css$/, loader: 'style!css!postcss'
     }]
+  },
+  postcss: function () {
+    return [autoprefixer, precss];
   }
 };
