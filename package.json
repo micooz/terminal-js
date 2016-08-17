@@ -34,7 +34,7 @@
     "del": "^2.2.2",
     "es6-module-loader": "^0.17.11",
     "gulp": "^3.9.1",
-    "postcss-loader": "^0.10.0",
+    "postcss-loader": "^0.10.1",
     "precss": "^1.4.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
